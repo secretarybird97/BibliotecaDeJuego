@@ -1,4 +1,4 @@
-package RunAndRun;
+package recycleGame;
 
 import java.awt.Font;
 import java.awt.Graphics;
@@ -8,7 +8,7 @@ import base.Dibujable;
 
 
 
-public class Puntuacion implements Dibujable,Animado {
+public class Puntuacion implements Dibujable,Animado { //Clase para el contador de puntuacion
 
 	private int x;
 	private int y;
@@ -25,7 +25,7 @@ public class Puntuacion implements Dibujable,Animado {
 	
 
 	@Override
-	public void dibuja(Graphics g) {
+	public void dibuja(Graphics g) { //Dibuja el mensaje de Puntuacion en la pantalla
 		if(isVisible()){
 			Font fuente=new Font("Monospaced", Font.BOLD, 20);
 			g.setFont(fuente);

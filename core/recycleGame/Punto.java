@@ -1,10 +1,10 @@
-package RunAndRun;
+package recycleGame;
 
 import java.awt.Graphics;
 
-public class Enemigo extends Elemento {
+public class Punto extends Elemento {
 
-	public Enemigo(String recurso, int x, int y, int xt, int vx, int vy) {
+	public Punto(String recurso, int x, int y, int xt, int vx, int vy) {
 		super(recurso, x, y, xt, vx, vy);
 	}
 
@@ -14,7 +14,7 @@ public class Enemigo extends Elemento {
 	}
 	
 	@Override
-	public void anima() {
+	public void anima() { //Permite el movimiento del objeto de puntuacion y en caso de llegar a los limites del mapa, rebotara
 		setX(getX()+getVx());
 		setY(getY()+getVy());
 		if (getX()<0){

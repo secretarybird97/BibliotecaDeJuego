@@ -1,4 +1,4 @@
-package RunAndRun;
+package recycleGame;
 
 import java.awt.Graphics;
 import java.awt.Image;
@@ -8,7 +8,7 @@ import base.Dibujable;
 
 
 
-public class ImagenEst implements Dibujable {
+public class ImagenEst implements Dibujable { //Esta clase sirve para cargar la imagen de fondo del juego
 
 	private int x;
 	private int y;

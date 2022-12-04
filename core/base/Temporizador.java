@@ -4,26 +4,30 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import javax.swing.Timer;
 
-public class Temporizador extends Timer {
+public class Temporizador extends Timer { // Esta clase permite que el juego corra en tiempo real
+	// Es necesario un temporizador global para registrar enemigos, puntuacion,
+	// entre otras acciones
+	// Y otros 2 temporizadores, para separar el estado de Crashed entre ambos
+	// jugadores
 	private ArrayList<Animado> objs;
-	
-	public Temporizador(int delay, Juego juego){
-		super(delay,juego);
+
+	public Temporizador(int delay, Juego juego) {
+		super(delay, juego);
 		objs = new ArrayList<Animado>();
 	}
-	
-	public void add(Animado obj){
+
+	public void add(Animado obj) {
 		objs.add(obj);
 	}
-	
-	public void vacia(){
+
+	public void vacia() {
 		objs.clear();
 	}
-	
+
 	@Override
-	protected void fireActionPerformed(ActionEvent e){
-		
-		for (Animado obj : objs){
+	protected void fireActionPerformed(ActionEvent e) {
+
+		for (Animado obj : objs) {
 			obj.anima();
 		}
 		super.fireActionPerformed(e);

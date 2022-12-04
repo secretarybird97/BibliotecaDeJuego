@@ -1,4 +1,4 @@
-package RunAndRun;
+package recycleGame;
 
 import java.awt.Graphics;
 import java.awt.Image;
@@ -8,7 +8,7 @@ import javax.swing.ImageIcon;
 import base.Animado;
 import base.Dibujable;
 
-public abstract class Elemento implements Dibujable, Animado {
+public abstract class Elemento implements Dibujable, Animado { //Clase abstracta de la que heredaran jugador, punto y enemigo
 
 	private int x;
 	private int y;
@@ -17,6 +17,8 @@ public abstract class Elemento implements Dibujable, Animado {
 	private int xt;
 	private boolean crashed;
 	protected Image imagen;
+	//variables de instancia para sus coordenadas, estado de crashed e imagen de icono
+	
 	
 	public Elemento(String recurso, int x, int y, int xt, int vx, int vy) {
 		this.setX(x);
@@ -28,6 +30,7 @@ public abstract class Elemento implements Dibujable, Animado {
 		imagen = new ImageIcon(this.getClass().getResource(recurso)).getImage();
 	}
 
+	//Las clases que hereden de Elemento deberan implementar los siguientes metodos abstractos
 	abstract public void anima();
 
 	@Override
