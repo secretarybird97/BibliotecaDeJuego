@@ -4,6 +4,4 @@ Esta biblioteca sirve como el motor principal de nuestro juego Recyling Game. Va
 
 A continuación se explicaran las clases de la biblioteca y como usarse:
 
----
-
 ## Base
