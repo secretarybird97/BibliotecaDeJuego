@@ -8,6 +8,8 @@ A continuación se explicaran las clases de la biblioteca y como usarse:
 
 ## Base
 
+Diagrama UML: ![Diagrama](DiagramaUML.png "Diagrama")
+
 Aquí se encuentran las clases base e interfaces que son utilizadas en la carpeta principal del juego.
 
 ### Animado
