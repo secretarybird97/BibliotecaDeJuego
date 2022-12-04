@@ -38,7 +38,7 @@ Clase abstracta que el programador utilizara para correr el juego
 
 ## Test
 
-Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, tomando como referencia nuestro videojuego de recyclingGame.
+Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, tomando como referencia nuestro videojuego de recyclingGame. Ver mas en [README_Test](./core/test/README.md)
 
 ---
 
