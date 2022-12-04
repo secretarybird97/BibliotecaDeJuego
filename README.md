@@ -4,11 +4,11 @@ Esta biblioteca sirve como el motor principal de nuestro juego Recyling Game. Va
 
 A continuación se explicaran las clases de la biblioteca y como usarse:
 
+---
+
 ## Base
 
 Aquí se encuentran las clases base e interfaces que son utilizadas en la carpeta principal del juego.
-
----
 
 ### Animado
 
@@ -23,3 +23,17 @@ Esta clase se extiende de JPanel. Genera la ventana que se utilizara para la int
 Todo aquel objeto que vaya a ser dibujado/renderizado en pantalla implementa esta interfaz
 
 - public void dibuja(Graphics g)
+
+### Temporizador
+
+Esta clase permite que el juego corra en tiempo real. Se usa para registrar enemigos, puntuacion, entre otras cosas.
+
+### Juego
+
+Clase abstracta que el programador utilizara para correr el juego
+
+---
+
+## Test
+
+Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, tomando como referencia nuestro videojuego de recyclingGame.
