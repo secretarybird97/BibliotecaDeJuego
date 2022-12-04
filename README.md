@@ -22,7 +22,7 @@ Esta clase se extiende de JPanel. Genera la ventana que se utilizara para la int
 
 Todo aquel objeto que vaya a ser dibujado/renderizado en pantalla implementa esta interfaz
 
-- public void dibuja(Graphics g)
+- `public void dibuja(Graphics g)`
 
 ### Temporizador
 
@@ -37,3 +37,10 @@ Clase abstracta que el programador utilizara para correr el juego
 ## Test
 
 Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, tomando como referencia nuestro videojuego de recyclingGame.
+
+---
+
+## ¿Como utilizar la biblioteca?
+
+1. Clonar el repositorio en su dispositivo
+2. blank
