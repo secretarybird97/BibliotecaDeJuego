@@ -8,6 +8,8 @@ A continuación se explicaran las clases de la biblioteca y como usarse:
 
 Aquí se encuentran las clases base e interfaces que son utilizadas en la carpeta principal del juego.
 
+---
+
 ### Animado
 
 Todos los objetos que se muevan o sean dinamicos implementan esta interfaz
