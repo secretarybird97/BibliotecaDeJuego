@@ -38,11 +38,13 @@ Clase abstracta que el programador utilizara para correr el juego
 
 ## Test
 
-Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, tomando como referencia nuestro videojuego de recyclingGame. Ver mas en [Test](https://github.com/secretarybird97/BibliotecaDeJuego/tree/main/core/test)
+Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, tomando como referencia nuestro videojuego de recyclingGame. Para más información: [Test](https://github.com/secretarybird97/BibliotecaDeJuego/tree/main/core/test)
 
 ---
 
 ## ¿Como utilizar la biblioteca?
 
-1. Clonar el repositorio en su dispositivo
-2. blank
+1. Clonar el repositorio en su dispositivo.
+2. Abrir la carpeta `core/test`.
+3. Utilizar y/o las clases y funciones incluidas en 'core/base' y 'core/test' en un programa de prueba como desee.
+4. Puede utilizar la linea 'import base.\*;' para importar todas las clases.
