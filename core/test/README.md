@@ -33,7 +33,7 @@ Todo aquel objeto que vaya a ser dibujado/renderizado en pantalla implementa est
 ### Temporizador
 
 Esta clase permite que el juego corra en tiempo real. Se usa para registrar enemigos, puntuacion, entre otras cosas. Ademas en caso de dos jugadores, es necesario crear un objeto temporizador global (para enemigos, puntuacion, etc) y crear nuevamente objetos temporizador individuales para cada jugador, de esta manera el estado de cada jugador es independiente, y esto permite que si alguno pierde, el juego no acabe hasta que ambos se encuentren en ese estado.
-Por lo que en caso de querer agregar otro personaje, es tan simple como utilizar otro objeto de tipo temporizador para agregar a este nuevo jugador (ademas de agregar sus interacciones). 
+Por lo que en caso de querer agregar otro personaje, es tan simple como utilizar otro objeto de tipo temporizador para agregar a este nuevo jugador (ademas de agregar sus interacciones).
 
 ### Juego
 
@@ -48,8 +48,6 @@ Esta clase cuenta con las variables de instancia protegidas: area y temporizador
 
 - `public void actionPerformed(ActionEvent e)` registra y verifica las entradas del teclado para el control de los personajes.
 
-
-
 ---
 
 ## Test
@@ -60,5 +58,7 @@ Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, toman
 
 ## ¿Como utilizar la biblioteca?
 
-1. Clonar el repositorio en su dispositivo
-2. blank
+1. Clonar el repositorio en su dispositivo.
+2. Abrir la carpeta `core/test`.
+3. Utilizar y/o las clases y funciones incluidas en `core/base` y `core/test` en un programa de prueba como desee.
+4. Puede utilizar la linea `import base.*;` para importar todas las clases.
