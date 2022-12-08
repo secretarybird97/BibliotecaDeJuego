@@ -46,5 +46,5 @@ Aqui se encuentra un ejemplo con clases sobre como utilizar la biblioteca, toman
 
 1. Clonar el repositorio en su dispositivo.
 2. Abrir la carpeta `core/test`.
-3. Utilizar y/o las clases y funciones incluidas en 'core/base' y 'core/test' en un programa de prueba como desee.
-4. Puede utilizar la linea 'import base.\*;' para importar todas las clases.
+3. Utilizar y/o las clases y funciones incluidas en `core/base` y `core/test` en un programa de prueba como desee.
+4. Puede utilizar la linea ``import base.\*;` para importar todas las clases.
